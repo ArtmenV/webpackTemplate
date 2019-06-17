@@ -1,0 +1,12 @@
+---WEBPACK---
+1- git init
+2- команды npm i webpack webpack-cli webpack-dev-server path -D
+в package.json добавить -- в scripts
+	"dev": "webpack-dev-server --open --mode development",
+	"build": "webpack --mode production"
+
+сборка npx webpack --mode=development(production) --watch(для наблюдения)
+
+  --- npx http-server
+
+// загрузчик для бабеля  npm i babel-core babel-preset-env babel-loader -D

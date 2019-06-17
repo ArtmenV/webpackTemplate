@@ -1,0 +1,19 @@
+{
+  "name": "webpacktemplate",
+  "version": "1.0.0",
+  "description": "My template",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtmenV/webpackTemplate.git"
+  },
+  "author": "Artmen_V",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArtmenV/webpackTemplate/issues"
+  },
+  "homepage": "https://github.com/ArtmenV/webpackTemplate#readme"
+}

@@ -10,3 +10,11 @@
   --- npx http-server
 
 // загрузчик для бабеля  npm i babel-core babel-preset-env babel-loader -D
+
++ css-loader@3.0.0
+npm i style-loader --save-dev
+
+npm i -D node-sass
+npm i url-loader -D
+npm i html-webpack-plugin -D
+npx webpack-dev-server могут быть проблемы с версиями

@@ -1,0 +1,16 @@
+
+$primary-color: green;
+
+html {
+    font-family: 'Consolas' monospace,
+}
+
+body {
+    background-color: $primary-color;
+}
+.title {
+    font-size: 42px;
+}
+.logo {
+    max-width: 250px;
+}

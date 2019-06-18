@@ -1,9 +1,7 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+import styles from './styles.scss'
 
-import { Greeter } from './greeter.js'
+import {Greeter} from './greeter'
 
-const greeter = new Greeter();
-
-const message = greeter.greet('hello', 'webpack');
-
-
-console.log(message);
+ReactDOM.render(<Greeter title=""/>, document.querySelector('#app'))
